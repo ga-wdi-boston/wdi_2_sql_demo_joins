@@ -1,5 +1,7 @@
 # SQL joins
 
-First, import the `setup.sql` into Postgres. This will setup a multi-table database with dozens of rows.
+Run:
 
-Follow along with the prompts in the `advanced_queries.sql` file, writing the SQL statements needed to fulfill each line.
+- `psql -f schema.sql`
+- `psql -f data.sql`
+- `psql -f queries.sql` (you can run this one multiple times
